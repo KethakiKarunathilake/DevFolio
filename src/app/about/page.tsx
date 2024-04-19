@@ -139,9 +139,9 @@ const About: NextPage = () => {
                           G.C.E. Advanced Level Examination
                           </h4>
                           <p className="timeline-text">
-                            In 2020 I passed my G.C.E. Ordinary Level
-                            Examination with 2 "A"s and 1 "B" passes.My z-score is 2.088
-                          </p>
+                          In 2020 I passed my G.C.E. Advanced  Level
+                            Examination with 2 &quot;A&quot;s and 1 &quot;B&quot; passes.My z-score is 2.088      
+                          </p>       
                         </div>
                         {/* Timeline Item end */}
                         {/* Timeline Item */}
@@ -155,7 +155,7 @@ const About: NextPage = () => {
                           </h4>
                           <p className="timeline-text">
                             In 2017 I passed my G.C.E. Ordinary Level
-                            Examination with 9 "A"s.
+                            Examination with 9 &quot;A&quot;s.
                           </p>
                         </div>
                         {/* Timeline Item end */}
@@ -176,7 +176,7 @@ const About: NextPage = () => {
                           </h6>
                           <h4 className="timeline-title">Teacher in ICT</h4>
                           <p className="timeline-text">
-                            From 2023, I'm warking as an ICT teacher in "Sip Saviya" Institute in Gampaha.I teach for 6-11 grades
+                            From 2023, I&apos;m warking as an ICT teacher in &quot;Sip Saviya&quot; Institute in Gampaha.I teach for 6-11 grades
                           </p>
                         </div>
                         {/* Timeline Item end */}
@@ -188,7 +188,7 @@ const About: NextPage = () => {
                           </h6>
                           <h4 className="timeline-title">Teacher in ICT</h4>
                           <p className="timeline-text">
-                           I worked as an ICT teacher in "Sarasavi Pihita" Online Institute from 2022-2023
+                           I worked as an ICT teacher in &quot;Sarasavi Pihita&quot; Online Institute from 2022-2023
                           </p>
                         </div>
                         {/* Timeline Item end */}
@@ -200,7 +200,7 @@ const About: NextPage = () => {
                           </h6>
                           <h4 className="timeline-title">Counter Assistant</h4>
                           <p className="timeline-text">
-                            I warked as a counter assistant in Peoples' Bank(Pugoda branch) in 2021
+                            I warked as a counter assistant in Peoples&apos; Bank(Pugoda branch) in 2021
                           </p>
                         </div>
                         {/* Timeline Item end */}
