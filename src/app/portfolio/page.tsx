@@ -1,4 +1,6 @@
 import type { NextPage } from "next";
+import Image from 'next/image';
+
 
 const Portfolio: NextPage = () => {
   return (
@@ -29,7 +31,7 @@ const Portfolio: NextPage = () => {
             <div className="portfolio-item padd-15" data-category="web-design">
               <div className="portfolio-item-inner shadow-dark">
                 <div className="portfolio-img">
-                  <img src="/imgs/portfolio/webss.png" alt="portfolio" />
+                  <Image src="./imgs/portfolio/webss.png" alt="portfolio" width={300} height={200}/>
                 </div>
                 <div className="portfolio-info">
                   <h4>Web Design</h4>
@@ -44,7 +46,7 @@ const Portfolio: NextPage = () => {
             <div className="portfolio-item padd-15" data-category="web-design">
               <div className="portfolio-item-inner shadow-dark">
                 <div className="portfolio-img">
-                  <img src="/imgs/portfolio/webss2.png" alt="portfolio" />
+                  <Image src="./imgs/portfolio/webss2.png" alt="portfolio"  width={200} height={300}  />
                 </div>
                 <div className="portfolio-info">
                   <h4>Web Design</h4>
@@ -59,7 +61,7 @@ const Portfolio: NextPage = () => {
             <div className="portfolio-item padd-15" data-category="web-design">
               <div className="portfolio-item-inner shadow-dark">
                 <div className="portfolio-img">
-                  <img src="/imgs/portfolio/trip.jpg" alt="portfolio" />
+                  <Image src="./imgs/portfolio/trip.jpg" alt="portfolio" height={200} width={300}/>
                 </div>
                 <div className="portfolio-info">
                   <h4>Post Design</h4>
