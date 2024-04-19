@@ -25,7 +25,7 @@ const Sidebar = () => {
       </div>
       <div className="aside-inner">
         <div className="logo">
-        <Image src="./imgs/portfolio/klogo1.png" alt="portfolio" width={300} height={200} />
+        <Image src="./imgs/portfolio/klogo1.png" alt="portfolio" width={200} height={200} />
         </div>
         <ul className="nav">
           <li onClick={handleClose}>
