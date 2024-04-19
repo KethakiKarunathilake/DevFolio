@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata} from "next";
 import { Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
@@ -11,9 +11,12 @@ import ThemeSwitch from "@/components/panel/ThemeSwitch";
 
 const inter = Inter({ subsets: ["latin"] });
 
+
 export const metadata: Metadata = {
-  title: "urFolio - Portfolio web",
+  
+  title: "Kethu-portfoilo",
   description: "urFolio - a Open Source portfolio web application",
+  
 };
 
 export default function RootLayout({

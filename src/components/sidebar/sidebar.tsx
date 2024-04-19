@@ -23,9 +23,7 @@ const Sidebar = () => {
       </div>
       <div className="aside-inner">
         <div className="logo">
-          <Link href="/" onClick={handleClose}>
-            Logo
-          </Link>
+        <img src="/imgs/portfolio/klogo1.png" alt="portfolio" />
         </div>
         <ul className="nav">
           <li onClick={handleClose}>
@@ -46,7 +44,7 @@ const Sidebar = () => {
               href="/services"
               className={`${pathUrl == "/services" && "active"}`}
             >
-              <i className="fa fa-list" /> Services
+              <i className="fa fa-list" /> Talents
             </Link>
           </li>
           <li onClick={handleClose}>
@@ -57,11 +55,7 @@ const Sidebar = () => {
               <i className="fa fa-briefcase" /> Portfolio
             </Link>
           </li>
-          <li onClick={handleClose}>
-            <Link href="/blog" className={`${pathUrl == "/blog" && "active"}`}>
-              <i className="fa fa-envelope" /> Blog
-            </Link>
-          </li>
+         
           <li onClick={handleClose}>
             <Link
               href="/contact"
@@ -73,8 +67,8 @@ const Sidebar = () => {
         </ul>
         <div className="copyright">
           Created with ❤️ By{" "}
-          <a href="http://alsiam.com" target="_blank" rel="noopener noreferrer">
-            Al Siam
+          <a href="https://github.com/kethakikarunathilake/" target="_blank" rel="noopener noreferrer">
+            Kethaki
           </a>
         </div>
       </div>
