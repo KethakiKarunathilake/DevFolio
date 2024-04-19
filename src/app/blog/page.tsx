@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-
+import Image from 'next/image';
 const Blog: NextPage = () => {
   return (
     <>
@@ -15,7 +15,7 @@ const Blog: NextPage = () => {
             <div className="blog-item padd-15">
               <div className="blog-item-inner shadow-dark">
                 <div className="blog-img">
-                  <img src="/imgs/blog/1.jpg" alt="Responsive Web Design" />
+                  <Image src="./imgs/blog/1.jpg" alt="Responsive Web Design" width={300} height={200}/>
                   <div className="blog-date">June 4, 2020</div>
                 </div>
                 <div className="blog-info">
@@ -39,7 +39,7 @@ const Blog: NextPage = () => {
             <div className="blog-item padd-15">
               <div className="blog-item-inner shadow-dark">
                 <div className="blog-img">
-                  <img src="/imgs/blog/2.jpg" alt="Creative Slideshow" />
+                  <Image src="./imgs/blog/2.jpg" alt="Creative Slideshow" width={300} height={200} />
                   <div className="blog-date">June 4, 2020</div>
                 </div>
                 <div className="blog-info">
@@ -63,7 +63,7 @@ const Blog: NextPage = () => {
             <div className="blog-item padd-15">
               <div className="blog-item-inner shadow-dark">
                 <div className="blog-img">
-                  <img src="/imgs/blog/3.jpg" alt="Image Gallery Lightbox" />
+                  <Image src="./imgs/blog/3.jpg" alt="Image Gallery Lightbox" width={300} height={200} />
                   <div className="blog-date">June 4, 2020</div>
                 </div>
                 <div className="blog-info">

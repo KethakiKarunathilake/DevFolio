@@ -26,7 +26,7 @@ const Service: NextPage = () => {
         <div className="service-item-inner">
           <div className="icon"><i className="fa fa-laptop" /></div>
           <h4>Web Design</h4>
-          <p>I'm not an expert in web development, but I'm trying to improve that skill and learn for it
+          <p>I am not an expert in web development, but I am trying to improve that skill and learn for it
           </p>
         </div>
       </div>
